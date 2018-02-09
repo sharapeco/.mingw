@@ -26,7 +26,7 @@ setopt auto_cd
 setopt prompt_subst
 
 ### 環境変数
-export PATH=/c/Users/yabu/bin:/mingw64/bin:/usr/local/bin:/usr/bin:/bin:/mingw64/bin:/usr/bin:/c/Users/yabu/bin:/c/Windows/system32:/c/Windows:/c/xampp/php:/c/w32tex/bin:/c/xampp/perl/bin:/c/Apps/casperjs/bin:/c/ProgramData/ComposerSetup/bin:/cmd:/c/Apps/bin:/c/xampp/php:/c/xampp/perl/bin:/cmd:/c/Users/yabu/AppData/Roaming/npm:/c/Apps/casperjs/bin:/c/Users/yabu/AppData/Local/atom/bin:/usr/bin/vendor_perl:/usr/bin/core_perl
+export PATH=/c/Users/yabu/bin:/mingw64/bin:/usr/local/bin:/usr/bin:/bin:/mingw64/bin:/usr/bin:/c/Users/yabu/bin:/c/Program\ Files/Git/cmd:/c/Program\ Files/nodejs:/c/Windows/system32:/c/Windows:/c/xampp/php:/c/w32tex/bin:/c/xampp/perl/bin:/c/Apps/casperjs/bin:/c/ProgramData/ComposerSetup/bin:/cmd:/c/Apps/bin:/c/xampp/php:/c/xampp/perl/bin:/cmd:/c/Users/yabu/AppData/Roaming/npm:/c/Apps/casperjs/bin:/c/Users/yabu/AppData/Local/atom/bin:/usr/bin/vendor_perl:/usr/bin/core_perl
 export LANG=ja_JP.UTF-8
 export EDITOR=vim
 
