@@ -9,6 +9,11 @@ colors
 zstyle ':completion:*' matcher-list 'm:{a-z}={A-Z}'
 zstyle ':completion:*' menu select=1
 
+### MSYS2 でマウントした C: 上でも補完を有効にする
+drives=$(mount | sed -rn 's#^[A-Z]: on /([a-z]).*#\1#p' | tr '\n' ' ')
+zstyle ':completion:*' fake-files /: "/:$drives"
+unset drives
+
 ### 履歴の設定
 HISTFILE=~/.zsh_history
 HISTSIZE=1000
