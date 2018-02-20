@@ -46,6 +46,10 @@ alias gipul='git pull origin master'
 alias gipsh='git push origin master'
 alias gico='git commit -am'
 
+# zzl
+alias mkproj='mkproj.cmd'
+alias mkwebconf='mkwebconf.cmd'
+
 ### バージョン管理システムから情報を取得
 ### http://www.sirochro.com/note/terminal-zsh-prompt-customize/
 zstyle ':vcs_info:git:*' check-for-changes true #formats 設定項目で %c,%u が使用可
